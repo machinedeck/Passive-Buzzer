@@ -1,3 +1,17 @@
+# Button-Controlled Nokia Ringtone using a Passive Buzzer
+<p align = "center"> <img src = "Images/circuit.png"></p>
+<p align = "center"><b>Figure 1.</b> Button-controlled passive buzzer circuit created in <a href = "https://www.tinkercad.com">Tinkercad</a>. The circuit along with the code can be tried and tested through this <a href = "https://www.tinkercad.com/things/fQJUkTMgSr4-passive-buzzer-with-nokia-ringtone-and-switch?sharecode=uOHM4dYuI-3O2dUIxWRhOjLuAzRExjSWg6tGPytbvN8">simulation</a>.</p>
+
+# Methodology
+<p align = "center"> <img src = "Images/schematic.png"></p>
+<p align = "center"><b>Figure 2.</b> Electrical connections for the button-controlled passive buzzer circuit created using <h href = "https://www.tinkercad.com">Tinkercad</h>. I used a pullup configuration for the button switch using a 220-&ohm; resistor.</p>
+- Passive Buzzer
+- Push Button
+- (1) 220-&ohm; resistor
+- Arduino UNO microcontroller
+- Connector wires
+- (Optional) Breadboard power supply module
+
 ## Code Breakdown
 &#x26A0;**IMPORTANT:** _This section is a detailed description of the code and can be skipped to the overall code [here](#overall-code)._
 
