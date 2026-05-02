@@ -8,6 +8,7 @@ I have started to play around with a new electronic component: the passive buzze
 # Methodology
 <p align = "center"> <img src = "Images/schematic.png"></p>
 <p align = "center"><b>Figure 2.</b> Electrical connections for the button-controlled passive buzzer circuit created using <h href = "https://www.tinkercad.com">Tinkercad</h>. I used a pullup configuration for the button switch using a 220-&ohm; resistor.</p>
+
 - Passive Buzzer
 - Push Button
 - (1) 220-&ohm; resistor
