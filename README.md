@@ -2,6 +2,9 @@
 <p align = "center"> <img src = "Images/circuit.png"></p>
 <p align = "center"><b>Figure 1.</b> Button-controlled passive buzzer circuit created in <a href = "https://www.tinkercad.com">Tinkercad</a>. The circuit along with the code can be tried and tested through this <a href = "https://www.tinkercad.com/things/fQJUkTMgSr4-passive-buzzer-with-nokia-ringtone-and-switch?sharecode=uOHM4dYuI-3O2dUIxWRhOjLuAzRExjSWg6tGPytbvN8">simulation</a>.</p>
 
+# Introduction
+I have started to play around with a new electronic component: the passive buzzer. I chose this instead of its active counterpart because it offers more flexibility, such as choosing the tone (_cite or reference because not sure_).
+
 # Methodology
 <p align = "center"> <img src = "Images/schematic.png"></p>
 <p align = "center"><b>Figure 2.</b> Electrical connections for the button-controlled passive buzzer circuit created using <h href = "https://www.tinkercad.com">Tinkercad</h>. I used a pullup configuration for the button switch using a 220-&ohm; resistor.</p>
@@ -117,3 +120,6 @@ void loop() {
   }
 }
 ```
+
+## Problems
+One of the problems I think I have with this electronic circuit is that there is interrupt option. Even though I push the button again, the sound is not interrupted or will not restart. I think I should consider an interrupt next time.
