@@ -1,5 +1,7 @@
 ## Code Breakdown
-To make a sound with, a square wave must be passed into the passive buzzer. The frequency and duration of the passive buzzer can easily be defined using [`tone()`](https://docs.arduino.cc/language-reference/en/functions/advanced-io/tone/) function, which accepts three arguments in the following order: pin number, frequency (in Hz) and duration (in ms). Below we will go step-by-step with the code. We subdivide the code into three parts: parameter initialization, `void setup()`, and `void loop()`.
+&#x26A0;**IMPORTANT:** _This section is a detailed description of the code and can be skipped to the overall code [here](#overall-code)._
+
+To make a sound, a square wave must be passed into the passive buzzer. The frequency and duration of the passive buzzer can easily be defined using [`tone()`](https://docs.arduino.cc/language-reference/en/functions/advanced-io/tone/) function, which accepts three arguments in the following order: pin number, frequency (in Hz) and duration (in ms). Below we will go step-by-step with the code. We subdivide the code into three parts: parameter initialization, `void setup()`, and `void loop()`.
 
 ### Parameter Initialization
 We should define first the pin that will feed signal into the passive buzzer:
